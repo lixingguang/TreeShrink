@@ -15,7 +15,6 @@ def main():
     from copy import deepcopy
     from tempfile import mkdtemp,mktemp
     from shutil import rmtree, copyfile
-    import dendropy
     from treeshrink.alignment import CompactAlignment
 
     print("Launching " + treeshrink.PROGRAM_NAME + " version " + treeshrink.PROGRAM_VERSION)
