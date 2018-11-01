@@ -37,7 +37,8 @@ def main():
     MIN_OCC = 20
     MIN_TREE_NUM = 20
 
-    wdir = dirname(realpath(__file__))
+    wdir = dirname(dirname(dirname(realpath(__file__))))
+    print(wdir)
 
     if args["tempdir"]:
         tempdir = args["tempdir"]
